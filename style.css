@@ -1,0 +1,224 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+nav {
+  display: flex;
+  background: #FAFAFA;
+  
+}
+
+nav ul {
+  display: flex;
+}
+
+.first-list {
+  width: 70%;
+  justify-content: center;
+}
+
+.first-list li ,
+.second-list li {
+  margin: 10px;
+  list-style-type: none;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.846rem;
+  
+}
+
+.first-list > li:nth-child(1) > a:nth-child(1) {
+  color: red;
+  padding-right: 0.3rem;
+}
+
+.fas {
+  color: red;
+  font-size: 0.97rem;
+}
+
+header {
+  height: 54vh;
+  background: url("img/residential-banner-2.jpg");
+  background-size: cover;
+  padding: 20px 10px;
+  background-position-x: center; 
+  background-position-y: center;
+  text-align: center;
+  color: white;
+}
+
+body > header:nth-child(2) > h2:nth-child(1) {
+  margin-top: 1.7rem;
+  margin-bottom: 0;
+  font-size: 2.7rem;
+}
+
+body > header:nth-child(2) > h2:nth-child(2) {
+  margin-top: 0;
+  font-size: 2.7rem;
+}
+
+.textsize > div:nth-child(1) {
+  font-size: 1.2rem;
+}
+.textsize > div:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+.textsize > p:nth-child(3) {
+  font-size: 1.2rem;
+}
+
+body > main:nth-child(3) > h2:nth-child(1) {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0;
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.instructions article {
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+}
+
+main>h2 {
+  text-align: center;
+}
+
+.instructions .fa-minus {
+  font-size: 1.23rem;
+  color: #60625F;
+}
+
+.instructions span {
+  font-size: 1.8rem;
+  color: #60625F;
+}
+.instructions h2, 
+.instructions h3,
+.instructions div {
+  color: #60625F;
+}
+
+.instructions div {
+  padding-bottom: 2.9rem;
+}
+
+.instructions h3 {
+  font-size: 25px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  background: #EDEDED;
+  padding: 68px 200px;
+}
+
+.gallery img {
+  margin: 0 4px;
+  width: 30%;
+} 
+
+.list-container {
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gray;
+}
+
+.list-container ul {
+  padding-left: 0;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  color: gray;
+  background: black; 
+  font-size: 10.5px;
+  justify-content: center;
+  padding: 40px 10px;
+ 
+}
+
+footer li {
+  list-style-type: none;
+  padding-bottom: 0.5rem;
+  width: 70%;
+}
+
+footer section {
+  margin: 15px;
+}
+
+.middle-container div {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 0.74rem;
+  padding-bottom: 0.2rem;
+}
+
+.middle-container .fas {
+  color: white;
+  font-size: 1rem;
+}
+
+.middle-container .far {
+  color: white;
+}
+
+.middle-container .circle {
+  padding-top: 1.9rem;
+}
+
+.list-container > ul:nth-child(3) {
+  margin-right: -28px;
+}
+
+.list-container > ul:nth-child(1) {
+  margin-left: 9px;
+}
+
+.last-container {
+  margin-top: 2.1rem;
+}
+
+.last-container p {
+  width: 75%;
+  text-align: center;
+}
+
+.last-container button {
+  color: white;
+  background: #FA5B3C;
+  padding: 8px 7px;
+  border: none;
+  display: block;
+  margin-top: 7px;
+}
+
+.last-container button:hover,
+.last-container button:focus {
+  cursor: pointer;
+}
+
+.last-container input {
+  padding: 8px 0px;
+  padding-right: 43px;
+  padding-left: 6px;
+}
+
+
+body > footer:nth-child(5) {
+  padding-block: 1rem;
+  padding-top: 0.3rem;
+}
